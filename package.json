@@ -54,11 +54,6 @@
     "type": "git",
     "url": "https://github.com/invertase/react-native-firebase/tree/master/packages/messaging"
   },
-  "scripts": {
-    "build": "genversion --semi lib/version.js",
-    "build:clean": "rimraf android/build && rimraf ios/build",
-    "prepare": "yarn run build"
-  },
   "types": "lib/index.d.ts",
   "version": "7.6.1"
 }
